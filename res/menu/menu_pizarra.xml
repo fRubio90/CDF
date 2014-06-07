@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    
+    <item
+        android:id="@+id/menu_dibujar"
+        android:showAsAction="always"
+        android:title="@string/menu_dibujo"
+    	android:icon="@android:drawable/ic_menu_edit"/>
+    
+    <item
+        android:id="@+id/menu_mover"
+        android:showAsAction="always"
+        android:title="@string/menu_mover"
+        android:icon="@android:drawable/ic_dialog_map"/>
+    
+    <item
+        android:id="@+id/menu_borrar"
+        android:showAsAction="always"
+        android:title="@string/menu_borrar"
+        android:icon="@android:drawable/ic_menu_delete"/>
+    
+    <item
+        android:id="@+id/menu_deshacer"
+        android:showAsAction="always"
+        android:title="@string/menu_deshacer"
+        android:icon="@android:drawable/ic_menu_revert"/>
+    
+    <item 
+        android:id="@+id/anadir"
+        android:title="Añadir Jujadores"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:showAsAction="always" >
+
+        <menu>
+        
+    <item
+        android:id="@+id/menu_anadir1"
+        android:showAsAction="never"
+        android:title="@string/menu_anadir"
+        android:icon="@android:drawable/ic_delete"/>
+    
+     <item
+        android:id="@+id/menu_anadir2"
+        android:showAsAction="never"
+        android:title="@string/menu_anadir"
+        android:icon="@android:drawable/ic_dialog_alert"/>
+    
+    </menu>
+    </item>
+
+</menu>

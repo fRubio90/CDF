@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+   <LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+        
+     <Button 
+        	android:id="@+id/btnCargarEntreno"
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:text="@string/btnCargar"/>
+     
+     <EditText 
+         android:id="@+id/txtCargarEntreno"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:hint="@string/nombreEntrenamiento"
+         />
+     
+     
+     </LinearLayout>
+    
+    
+    
+    
+     <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      
+        
+               <com.example.futbola.ExpandableHeightGridView 
+	        		android:id="@+id/gridCargarCabecerasEntreno"
+		       		android:layout_height="wrap_content"
+		       		android:layout_width="wrap_content"
+		       		android:columnWidth="300px"
+		       		android:stretchMode="none"
+	       	 />
+        
+        
+			   	<com.example.futbola.ExpandableHeightListView 
+	     			android:id="@+id/lstCargarTabla"
+			     	android:layout_height="wrap_content"
+			     	android:layout_width="300px"
+			     	android:layout_below="@id/gridCargarCabecerasEntreno"
+			      
+			 	 />
+        
+
+    
+		    	<com.example.futbola.ExpandableHeightGridView 
+			        android:id="@+id/gridCargarEntreno"
+			       	android:layout_height="wrap_content"
+			       	android:layout_width="wrap_content"
+			       	android:columnWidth="300px"
+			       	android:stretchMode="none"
+			       	android:layout_below="@id/gridCargarCabecerasEntreno"
+			       	android:layout_toRightOf="@id/lstCargarTabla"
+			        />      
+       
+    </RelativeLayout>
+    
+  
+</LinearLayout>
+
+   </ScrollView>

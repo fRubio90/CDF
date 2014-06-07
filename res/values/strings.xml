@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CDF</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnAnadirJugadores">Jokalariak Gehitu</string>
+    <string name="btnEditarJugadores">Jokalariak Aldatu</string>
+    <string name="btnEliminarJugadores">Jokalariak Ezabatu</string>
+    <string name="btnAnadirPruebas">Probak Gehitu</string>
+    <string name="btnEditarPruebas">Probak Aldatu</string>
+    <string name="btnEliminarPruebas">Probak Ezabatu</string>
+    <string name="btnVerPruebas">Probak Ikusi</string>
+    <string name="btnAnadirEntreno">Entrenamendua Sortu</string>
+    <string name="btnJugadores">Jokalariak</string>
+    <string name="btnVerJugadores">Jokalariak Ikusi</string>
+    <string name="btnBorrar">Ezabatu</string>
+    <string name="btnPruebas">Probak</string>
+    <string name="activity_anadir_jugadores">Jokalariak Gehitu</string>
+    <string name="activity_administrar_jugadores">Jokalariak Kudeatu</string>
+    <string name="activity_administrar_pruebas">Probak Kudeatu</string>
+    <string name="activity_administrar_entrenos">Entrenamenduak Kudeatu</string>
+    <string name="activity_editar_jugadores">Jokalariak Aldatu</string>
+    <string name="activity_buscar_fecha">Dataz bilatu</string>
+    <string name="activity_editar_pruebas">Probak Aldatu</string>
+    <string name="lblNombre">Izena:</string>
+    <string name="lblApellido">Abizena:</string>
+	<string name="lblEdad">Adina:</string>
+	<string name="lblEmail">Email:</string>
+	<string name="lblTelefono">Telefonoa:</string>
+	<string name="btnAceptar">Baietsi</string>
+	<string name="btnCancelar">Ezeztatu</string>
+	<string name="lblSeleccionJugador">Aukeratu nahi duzun jokalaria:</string>
+	<string name="activity_jugadores">Jokalariak</string>
+	<string name="activity_perfil">Profil</string>
+	<string name="lblPrueba">Proba:</string>
+	<string name="lblCategoria">Kategoria:</string>
+	<string name="activity_anadir_pruebas">Probak Gehitu</string>
+	<string name="activity_anadir_entrenamiento">Entrenamendua Sortu</string>
+	<string name="activity_pruebas">Probak</string>
+    <string name="btnEntreno">Entrenamendua Sortu</string>
+    <string name="btnAnadir">Gehitu</string>
+    <string name="btnGuardar">Gorde</string>
+    <string name="btnCargar">Kargatu</string>
+    <string name="activity_recuperar_entrenamiento">Entrenamendua Kargatu</string>
+    <string name="btnPizarra">Arbela</string>
+    <string name="activity_pizarra">Arbela</string>
+    <string name="menu_dibujo">Marraztu</string>
+    <string name="menu_mover">Mugitu</string>
+    <string name="menu_borrar">Ezabatu</string>
+    <string name="menu_deshacer">Desegin</string>
+    <string name="menu_anadir">Jokalariak Gehitu</string>
+    <string name="activity_graficos">Grafikoak</string>
+    <string name="activity_mensaje">Alerta</string>
+    <string name="introduceJugador">Jokalariaren datuak sartu:</string>
+    <string name="introducePrueba">Probaren datuak sartu:</string>
+    <string name="btnFoto">Argazkia aukeratu</string>
+    <string name="activity_seleccionar_jugadores">Aukeratu Jokalaria</string>
+    <string name="mensaje">Eragiketa zuzen burutu da</string>
+    <string name="mensaje2">Ziur zaude ezabatu nahi duzula?</string>
+    <string name="nombreEntrenamiento">Zein da entrenamenduaren izena?</string>
+    <string name="medirPruebas">Aukeratu neurtuko diren probak:</string>
+    <string name="dia">Eguna (ee):</string>
+    <string name="mes">Hilabetea (hh):</string>
+    <string name="anyo">Urtea (uuuu):</string>
+    
+</resources>

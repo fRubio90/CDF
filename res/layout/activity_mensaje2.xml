@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    
+   
+      
+    <TextView
+    android:id="@+id/mezua"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/mensaje2">
+
+	</TextView>
+
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"> 
+     
+     <Button
+	    android:id="@+id/btnAceptarMensaje2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btnAceptar" >
+	</Button>
+	
+      <Button
+	    android:id="@+id/btnCancelarMensaje2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btnCancelar" >
+	</Button>
+     
+      
+      
+  </LinearLayout>  
+    
+
+</LinearLayout>
+    
+    
+

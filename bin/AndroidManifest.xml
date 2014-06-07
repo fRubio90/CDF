@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.futbola"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.futbola.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.futbola.AdministrarJugadores"
+            android:label="@string/activity_administrar_jugadores"
+        ></activity>
+        
+        <activity
+            android:name="com.example.futbola.AnadirJugadores"
+            android:label="@string/activity_anadir_jugadores"
+            android:screenOrientation="portrait"
+        ></activity>
+        
+       <activity
+            android:name="com.example.futbola.SeleccionarJugador"
+            android:label="@string/activity_editar_jugadores"
+        ></activity>
+        
+        <activity
+            android:name="com.example.futbola.EditarJugadores"
+            android:label="@string/activity_editar_jugadores"
+        ></activity>
+       
+          <activity
+            android:name="com.example.futbola.SeleccionarJugadores"
+            android:label="@string/activity_seleccionar_jugadores"
+        ></activity>
+
+        
+         <activity
+            android:name="com.example.futbola.Jugadores"
+            android:label="@string/activity_jugadores"
+        ></activity>
+         
+          <activity
+            android:name="com.example.futbola.Perfil"
+            android:label="@string/activity_perfil"	
+        ></activity>
+          
+          <activity
+            android:name="com.example.futbola.Mezua"
+            android:label="@string/activity_mensaje"
+            android:theme="@android:style/Theme.Dialog"	
+        ></activity>
+          
+        <activity
+            android:name="com.example.futbola.Mezua2"
+            android:label="@string/activity_mensaje"
+            android:theme="@android:style/Theme.Dialog"	
+        ></activity>
+          
+       <activity
+            android:name="com.example.futbola.AdministrarPruebas"
+            android:label="@string/activity_administrar_pruebas"	
+        ></activity>
+          
+        
+          
+          <activity
+            android:name="com.example.futbola.AnadirPruebas"
+            android:label="@string/activity_anadir_pruebas"	
+        ></activity>
+          
+          <activity
+            android:name="com.example.futbola.EditarPrueba"
+            android:label="@string/activity_editar_pruebas"	
+        ></activity>
+          
+        
+       	 <activity
+            android:name="com.example.futbola.Pruebas"
+            android:label="@string/activity_pruebas"	
+        ></activity>
+       	 
+       	<activity
+            android:name="com.example.futbola.AdministrarEntrenamientos"
+            android:label="@string/activity_administrar_entrenos"
+        ></activity>
+       	 
+       	 <activity
+            android:name="com.example.futbola.AnadirEntrenamiento"
+            android:label="@string/activity_anadir_entrenamiento"
+            android:screenOrientation="landscape"
+        ></activity>
+       	 
+       	 <activity
+            android:name="com.example.futbola.CargarEntrenamiento"
+            android:label="@string/activity_recuperar_entrenamiento"
+            android:screenOrientation="landscape"
+        ></activity>
+
+        <activity
+            android:name="com.example.futbola.Pizarra"
+            android:label="@string/activity_pizarra"
+            android:screenOrientation="portrait"
+        ></activity>
+        
+        <activity
+            android:name="com.example.futbola.Graficos"
+            android:label="@string/activity_graficos"
+        ></activity>
+       	 
+        <activity
+            android:name="com.example.futbola.BuscarFecha"
+            android:label="@string/activity_buscar_fecha"
+        ></activity>
+        
+       	 
+    </application>
+
+</manifest>
